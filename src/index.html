@@ -1,19 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./scss/main.scss">
+    <title>AdaTasks</title>
 </head>
     <body>
-        <header>Ada Task</header>
+        <header class="header">Ada Task</header>
         <main>
-            <section class="new_task"></section>
-                <div class="new_task__container"></div>
-            <section class="task_list"></section>
-                <div class="task_list__container"></div>
-            <section class="task_instructions"></section>
-                <div class="task_instructions__container"></div>    
+            <section class="new_task">
+                <div class="new_task__container">
+                    <input type="text" class="new_task__input">
+                    <button class="new_task__btn">Agregar</button>
+                 </div>
+            </section>
+            <section class="task_list">
+                <div class="task_list__container">
+                    <input type="text" name="" class="task_list__input">
+                    <button class="task_list__btn">Buscar</button>
+                    <ul class="task_list__ul">
+
+                    </ul>
+                </div>
+            </section>
+            <section class="task_instructions">
+                <div class="task_instructions__container">
+                    <h2>Consejos para completar tus tareas</h2>
+                    <div>
+                        <img src="./images/list-ol-solid.svg" alt="Icono lista">
+                        <p>Pon en los primeros puestos de la lista dos objetivos importantes que necesites cumplir hoy. Así te aseguras de que no vas a perder el tiempo en tareas intrascendentes o falsamente productivas.</p>
+                    </div>    
+                    <div>
+                        <img src="./images/lightbulb-regular.svg" alt="Icono bombilla">
+                        <p>Empieza con cosas fáciles. Antes de esos objetivos importantes, incluye algunas tareas sencillas para empezar tu jornada diaria.</p>
+                    </div>    
+                    <div>    
+                        <img src="./images/object-ungroup-regular.svg" alt="Icono objetos desagrupados">
+                        <p>Divide las tareas. Un clásico de los métodos de organización es dividir los proyectos más complejos en pequeñas tareas con hitos y metas a corto plazo.</p>
+                    </div>    
+                    <div>    
+                        <img src="./images/clock-regular.svg" alt="Icono reloj">
+                        <p>Organiza la planificación. Una de las cosas más complicadas es precisamente preparar la lista todos los días. Así que a primera hora dal día puedes dedicar un tiempo para organizar tus tareas.</p>
+                    </div>
+                    <div>    
+                        <img src="./images/repeat-solid.svg" alt="Icono flechas repetición">
+                        <p>Prepara una lista nueva todos los días. No dejes que las mismas tareas se atasquen de un día para otro.</p>
+                    </div>
+                </div>
+            </section>    
         </main>   
+
     </body>
 </html>
